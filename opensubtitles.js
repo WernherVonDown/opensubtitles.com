@@ -14,7 +14,7 @@ module.exports = class OS {
       headers: {
         'Content-Type': 'application/json',
         'Accept': '*/*',
-        'User-Agent': 'MyApp v1.2.3',
+        'User-Agent': settings.userAgent || 'MyApp v1.2.3',
       }
     }
 
